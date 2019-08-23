@@ -6,3 +6,5 @@ IoTFS is masterless architecture, global availability, linear scale and fault to
 to ensuring a consistent experience for writing and reading data.
 
 
+## Reference
+http://www.hpcs.cs.tsukuba.ac.jp/~tatebe/lecture/h23/dsys/dsd-tutorial.html
