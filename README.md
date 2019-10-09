@@ -1,4 +1,5 @@
 # The Internet of Things FileSystem
 =================================
-RumbaFS is masterless architecture, global availability, linear scale and fault tolerance are critical 
-to ensuring a consistent experience for writing and reading data.
+Distributed storage system for the internet of things.   
+`RumbaFS` is an fully functional object storage system with geo-tranparent data access to file, block or object.    
+`RumbaFS` is integrating database and obejct storage for flexible data analysis.    
