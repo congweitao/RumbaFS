@@ -1,0 +1,31 @@
+hosts:
+  test_servers:
+    - server-A
+    - server-B
+timeout: 600
+faults:
+    no_faults:
+      fault_list: []
+server_config:
+   name: daos_server
+pool:
+    name: daos_server
+    scm_size: 1G
+    control_method: dmg
+snapshot:
+    dkey: "dkey"
+    akey: "akey"
+    snapshot_vars: !mux
+        reg_usage:
+            test_datasize: 200
+            num_of_snapshot: 20
+        high_usage:
+            test_datasize: 100000000
+            num_of_snapshot: 3
+object_class: !mux
+    OC_S4:
+        obj_class: OC_S4
+    OC_SX:
+        obj_class: OC_SX
+    OC_RP_2GX:
+        obj_class: OC_RP_2GX
